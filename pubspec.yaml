@@ -1,0 +1,27 @@
+name: unit_converter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+  fonts:
+    - family: MainFont
+      fonts:
+        - asset: assets/fonts/BalsamiqSans-Regular.ttf
+          style: normal
